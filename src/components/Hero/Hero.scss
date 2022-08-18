@@ -1,0 +1,41 @@
+main {
+    overflow: hidden;
+    height: 50em;
+}
+
+.heroColor {
+    background: linear-gradient(90deg, rgba(21, 46, 95, 1) 0%, rgba(32, 113, 189, 1) 70%);
+    height: 36em;
+    position: relative;
+}
+
+.heroImg {
+    width: 54em;
+    position: absolute;
+    right: -10em;
+    top: -12.8125em;
+}
+
+.heroContainer {
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.heroTextWrap {
+    width: 39em;
+}
+
+.heroBtn {
+    font-family: AvenirNextReg;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5;
+    color: white;
+    padding: .75em 2em;
+    background: #3399E1;
+    border: none;
+    border-radius: 1.5em;
+}

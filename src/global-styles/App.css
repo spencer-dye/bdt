@@ -1,0 +1,56 @@
+body {
+  font-family: "AvenirNextReg";
+  font-size: 1.1111111111vw;
+  margin: 0;
+}
+
+section {
+  padding: 4em 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: AvenirNextBld;
+  font-size: 3.75em;
+  line-height: 1.067;
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  opacity: 1;
+  color: rgb(21, 46, 95);
+  font-family: "AvenirNextBld";
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.125;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.pLight {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #E2E8F0;
+}
+
+.btnWrap {
+  margin-top: 2em;
+}
+
+.is--contentTop {
+  padding-top: 1.5em;
+}
+
+@media screen and (min-width: 1560px) {
+  body {
+    font-size: 17.333px;
+  }
+}/*# sourceMappingURL=App.css.map */

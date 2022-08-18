@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "AvenirNextReg";
+  src: local("AvenirNextRegular"), url("../fonts/AvenirNext/AvenirNextRegular.otf") format("truetype");
+  font-weight: regular;
+}
+@font-face {
+  font-family: "AvenirNextBld";
+  src: local("AvenirNextBold"), url("../fonts/AvenirNext/AvenirNextBold.otf") format("truetype");
+  font-weight: regular;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}/*# sourceMappingURL=index.css.map */
