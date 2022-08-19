@@ -6,7 +6,7 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <nav>
-        <div className="navContainer">
+        <div className="container navContainer">
             <img src={bdtLogo} alt="Benefits Data Trust Main Logo" className='logo'/>
             <div className="linksWrap">
                 <Link to='/' className='navLink'>Who We Are</Link>

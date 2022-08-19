@@ -1,0 +1,13 @@
+.articleLinkWrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+  gap: 0.65em;
+}
+
+.articleEntry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}/*# sourceMappingURL=ArticlePreview.css.map */

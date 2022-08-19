@@ -1,0 +1,13 @@
+.articlesWrap {
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.insightsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+}/*# sourceMappingURL=InsightsSection.css.map */

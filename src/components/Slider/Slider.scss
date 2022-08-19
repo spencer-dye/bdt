@@ -1,0 +1,79 @@
+.splide__wrap {
+    position: relative;
+    
+}
+
+.slideWrap {
+    padding: 3em 10em 0 10em;
+    background-image: url(../../images/icons/bigQuotes.svg);
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: 12% 19%;
+}
+
+.splide__arrow {
+    background: none;
+    border: none;
+}
+
+.splide__arrow--prev {
+    position: absolute;
+    top: 30%;
+}
+
+.splide__arrow--next {
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.splide__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.splide__pagination__page {
+    height: 1em;
+    width: 1em;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #3399E1;
+}
+
+.arrowSVG{
+    width: 5em;
+    border-radius: 50%;
+}
+
+.arrowSVG:hover {
+    background: #3398e137;
+}
+
+.arrowFlip {
+    transform: rotate(-180deg);
+}
+
+.slideQuoteInfo {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quoteName {
+    color: rgba(26, 32, 44, 1);
+    font-family: "AvenirNextBld";
+    font-weight: 500;
+    font-size: 1.15em;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.quoteDemo {
+    color: rgba(74, 84, 104, 1);
+    font-family: "AvenirNextReg";
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5;
+}

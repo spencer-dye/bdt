@@ -1,10 +1,12 @@
 .topNav {
+  background: #F5F8FA;
+}
+
+.topNavContainer {
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 1em;
-  padding: 0 4em;
-  background: #F5F8FA;
 }
 
 .topNavBtn {
