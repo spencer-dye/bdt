@@ -1,0 +1,94 @@
+.audiencesContainer {
+    margin: 2em auto 0 auto;
+    max-width: 65.5em;
+}
+
+.audiencesTopWrap {
+    padding-bottom: 2.25em;
+    display: grid;
+    grid-template-columns: .55fr 1fr;
+    gap: .25em;
+    border-bottom: 2px solid #E2E8F0;
+}
+
+.audienceBtnWrap {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    gap: .85em;
+}
+
+.audienceContent {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.aContentLeft {
+    padding: 1em 2em 1em 0;
+    border-right: 2px solid #E2E8F0;
+}
+
+.audienceImg {
+    border-radius: .5em;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 6px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    width: 21em;
+    height: 14em;
+}
+
+.audienceBtn {
+    padding: 0 .6em;
+    color: rgba(21, 46, 95, 1);
+    font-family: "AvenirNextReg";
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: .75em;
+    border: 1px solid rgba(21, 46, 95, 1);
+    background-color: rgba(255, 255, 255, 1);
+    transition: background .25s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.audienceBtn:hover {
+    background: #ecf5fc;
+}
+
+.audienceBtnActive {
+    background:#152E5F;
+    color: white;
+}
+
+.audienceBtnActive:hover {
+    background: #152E5F;
+    color: white;
+}
+
+.aHide {
+    display: none;
+}
+
+.aShow {
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .audiencesContainer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .audiencesTopWrap {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .aContentLeft {
+        display: none;
+    }
+}

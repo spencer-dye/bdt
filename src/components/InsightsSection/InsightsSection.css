@@ -10,4 +10,20 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 5em;
+}
+
+@media screen and (max-width: 750px) {
+  .articlesWrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .insightsHeader {
+    justify-content: space-between;
+    gap: 2em;
+  }
+  .altBtn {
+    justify-content: center;
+    width: 10em;
+    flex-shrink: 0;
+  }
 }/*# sourceMappingURL=InsightsSection.css.map */

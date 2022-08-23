@@ -4,6 +4,27 @@ import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css/core';
 import slideArrow from '../../images/icons/slideArrow.svg'
 
+// new Splide( '.splide', {
+//   classes: {
+// 		pagination: 'splide__pagination your-class-pagination',
+// 		page      : 'splide__page',
+//   },
+// } );
+
+// const splide = new Splide( '.splide' );
+
+// splide.on( 'pagination:mounted', function ( data ) {
+//   // You can add your class to the UL element
+//   data.list.classList.add( 'splide__pagination--active' );
+
+//   // `items` contains all dot items
+//   data.items.forEach( function ( item ) {
+//     item.button.textContent = String( item.page + 1 );
+//   } );
+// } );
+
+// splide.mount();
+
 const Slider = () => {
   return (
     <section>
@@ -56,6 +77,7 @@ const Slider = () => {
                     <div className="splide__arrows">
                         <button className="splide__arrow splide__arrow--prev"><img src={slideArrow} alt="slide next" className='arrowSVG arrowFlip'/></button>
                         <button className="splide__arrow splide__arrow--next"><img src={slideArrow} alt="slide previous" className='arrowSVG'/></button>
+                        <ul className="splide__pagination"></ul>
                     </div>
                     <ul className='splide'></ul>
                 </Splide>

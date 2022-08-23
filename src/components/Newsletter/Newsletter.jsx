@@ -12,7 +12,7 @@ const Newsletter = () => {
                 </div>
                 <form>
                     <input type="email" name="emailNewsletter" id="emailNewsletter" placeholder='Email address' required/>
-                    <button className="mainBtn">Subscribe</button>
+                    <button className="mainBtn mainBtnAltHover">Subscribe</button>
                 </form>
             </div>
         </div>

@@ -6,6 +6,10 @@ nav {
   max-width: 8em;
 }
 
+.mobileMenu {
+  display: none;
+}
+
 .navContainer {
   margin: 0 auto;
   display: flex;
@@ -21,6 +25,11 @@ nav {
 
 .navLink {
   font-size: 1em;
+  transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.navLink:hover {
+  color: #4493c9;
 }
 
 .navSearch {
@@ -36,4 +45,41 @@ nav {
   background-size: 11%;
   background-position: 1em;
   background-repeat: no-repeat;
+  transition: all 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.navSearch:hover {
+  background: #dedede;
+  background-image: url(../../images/icons/searchIcon.svg);
+  background-size: 11%;
+  background-position: 1em;
+  background-repeat: no-repeat;
+}
+
+.navSearch:focus-visible {
+  background: #eaeaea;
+  outline: thick solid #d9ecf9;
+  background-image: url(../../images/icons/searchIcon.svg);
+  background-size: 11%;
+  background-position: 1em;
+  background-repeat: no-repeat;
+}
+
+.navSearch:focus {
+  background: #f7f7f7;
+  background-image: url(../../images/icons/searchIcon.svg);
+  background-size: 11%;
+  background-position: 1em;
+  background-repeat: no-repeat;
+  border: 1px solid #698ea9;
+}
+
+@media screen and (max-width: 1024px) {
+  .linksWrap {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    width: 2em;
+  }
 }/*# sourceMappingURL=NavBar.css.map */

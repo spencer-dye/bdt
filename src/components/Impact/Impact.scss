@@ -19,3 +19,21 @@
     border-left: 4px solid #3399E1;
     padding-left: 2em;
 }
+
+@media screen and (max-width: 940px) {
+
+    .impactContainer {
+        width: 100%;
+    }
+
+    .impactCard{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .impactContent {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+}

@@ -5,7 +5,7 @@ const TopNav = () => {
   return (
     <div className='topNav'>
         <div className="container topNavContainer">
-            <a href="/">Contact us</a>
+            <a className='topNavLink' href="/">Contact us</a>
             <button href="/" className='topNavBtn'>Join the team</button>
         </div>
     </div>

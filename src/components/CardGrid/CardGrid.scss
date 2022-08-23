@@ -39,3 +39,10 @@
 .linkArrow {
     width: 1em;
 }
+
+@media screen and (max-width: 1024px) {
+    .heroCardGrid {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+}

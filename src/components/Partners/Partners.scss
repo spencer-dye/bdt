@@ -10,3 +10,15 @@
     align-items: center;
     gap: 1.5em;
 }
+
+@media screen and (max-width: 940px) {
+    .partnerContainer {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 2em;
+    }
+
+    .partnerImg {
+        width: 100%;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import CardGrid from '../CardGrid/CardGrid.jsx'
 import './Hero.css'
 import heroImg from '../../images/hero-header-fam-o.png'
+import smlHeroImg from '../../images/hero-header-fam-square.jpeg'
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
                 </div>
             </div>
         </section>
+        <img src={smlHeroImg} alt="A lady with 2 young children, all smiling." className='smlHeroImg'/>
         <section>
             <CardGrid />
         </section>

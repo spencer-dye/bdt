@@ -6,7 +6,7 @@ const Impact = () => {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="container impactContainer">
             <div className="impactCard">
                 <h2 className='is--whiteTxt'>Our Historic Impact</h2>
                 <div className="impactContent">
