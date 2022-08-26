@@ -375,3 +375,9 @@ input[type=email]:focus {
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 432px) {
+    h1 {
+        font-size: 3em;
+    }
+}

@@ -351,4 +351,9 @@ input[type=email]:focus {
   body {
     font-size: 13px;
   }
+}
+@media screen and (max-width: 432px) {
+  h1 {
+    font-size: 3em;
+  }
 }/*# sourceMappingURL=App.css.map */
