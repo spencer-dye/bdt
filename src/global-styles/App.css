@@ -2,6 +2,7 @@ body {
   font-family: "AvenirNextReg";
   font-size: 1.1111111111vw;
   margin: 0;
+  overflow-x: hidden;
 }
 
 section {
@@ -125,6 +126,7 @@ p {
 
 li {
   margin: 0;
+  list-style: none;
 }
 
 ul {
@@ -309,6 +311,22 @@ input[type=email]:focus {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
 }
 
 @media screen and (min-width: 1560px) {
