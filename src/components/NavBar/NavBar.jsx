@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import bdtLogo from '../../images/icons/bdt-logo-official.svg'
 import './NavBar.css'
