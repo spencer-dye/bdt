@@ -1,123 +1,123 @@
 nav {
-    padding: 1em 0;
+	padding: 1em 0;
 }
 
 .logo {
-    max-width: 8em;
+	max-width: 8em;
 }
 
 .navContainer {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .primaryNavigation {
-    display: flex;
-    align-items: center;
-    gap: 1.65em;
+	display: flex;
+	align-items: center;
+	gap: 1.65em;
 }
 
 .navLink {
-    font-size: 1em;
-    transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	font-size: 1em;
+	transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .navLink:hover {
-    color: #4493c9;
+	color: #4493c9;
 }
 
 .navSearch {
-    font-family: 'AvenirNextReg';
-    font-size:1em;
-    font-weight: 600;
-    color: #4A5468;
-    padding: 1em .625em 1em 3.125em;
-    border-radius: 2em;
-    border: none;
-    background: #f2f2f2;
-    background-image: url(../../images/icons/searchIcon.svg);
-    background-size: 11%;
-    background-position: 1em;
-    background-repeat: no-repeat;
-    transition: all 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	font-family: "AvenirNextReg";
+	font-size: 1em;
+	font-weight: 600;
+	color: #4a5468;
+	padding: 1em 0.625em 1em 3.125em;
+	border-radius: 2em;
+	border: none;
+	background: #f2f2f2;
+	background-image: url(../../images/icons/searchIcon.svg);
+	background-size: 11%;
+	background-position: 1em;
+	background-repeat: no-repeat;
+	transition: all 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .navSearch:hover {
-    background: #dedede;
-    background-image: url(../../images/icons/searchIcon.svg);
-    background-size: 11%;
-    background-position: 1em;
-    background-repeat: no-repeat;
+	background: #dedede;
+	background-image: url(../../images/icons/searchIcon.svg);
+	background-size: 11%;
+	background-position: 1em;
+	background-repeat: no-repeat;
 }
 
 .navSearch:focus-visible {
-    background: #eaeaea;
-    outline: thick solid #d9ecf9;
-    background-image: url(../../images/icons/searchIcon.svg);
-    background-size: 11%;
-    background-position: 1em;
-    background-repeat: no-repeat;
+	background: #eaeaea;
+	outline: thick solid #d9ecf9;
+	background-image: url(../../images/icons/searchIcon.svg);
+	background-size: 11%;
+	background-position: 1em;
+	background-repeat: no-repeat;
 }
 
 .navSearch:focus {
-    background: #f7f7f7;
-    background-image: url(../../images/icons/searchIcon.svg);
-    background-size: 11%;
-    background-position: 1em;
-    background-repeat: no-repeat;
-    border: 1px solid #698ea9;
+	background: #f7f7f7;
+	background-image: url(../../images/icons/searchIcon.svg);
+	background-size: 11%;
+	background-position: 1em;
+	background-repeat: no-repeat;
+	border: 1px solid #698ea9;
 }
 
 .mobileNavToggle {
-    display: none;
+	display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .logo {
-        position: relative;
-        z-index: 1001;
-    }
+	.logo {
+		position: relative;
+		z-index: 1001;
+	}
 
-    .primaryNavigation {
-        position: fixed;
-        z-index: 1000;
-        inset: 0 0 0 30%;
-        flex-direction: column;
-        align-items: flex-start;
-        background: #fff;
-        padding: min(30vh, 5em) 4em;
-        gap: 3em;
-        transform: translateX(100%);
-        transition: transform 350ms cubic-bezier(0.25, 1, 0.5, 1)
-    }
+	.primaryNavigation {
+		position: fixed;
+		z-index: 1000;
+		inset: 0 0 0 30%;
+		flex-direction: column;
+		align-items: flex-start;
+		background: #fff;
+		padding: min(30vh, 5em) 4em;
+		gap: 3em;
+		transform: translateX(100%);
+		transition: transform 350ms cubic-bezier(0.25, 1, 0.5, 1);
+	}
 
-    .primaryNavigation[data-visible="true"] {
-        transform: translateX(0%);
-    }
+	.primaryNavigation[data-visible="true"] {
+		transform: translateX(0%);
+	}
 
-    .navSearch {
-        order: -1;
-    }
+	.navSearch {
+		order: -1;
+	}
 
-    .mobileNavToggle {
-        display: block;
-        position: absolute;
-        z-index: 9999;
-        background: url(../../images/icons/mobileMenu.svg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        width: 2em;
-        aspect-ratio: 1;
-        top: 2em;
-        right: 2em;
-        border: 0;
-    }
+	.mobileNavToggle {
+		display: block;
+		position: absolute;
+		z-index: 9999;
+		background: url(../../images/icons/mobileMenu.svg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 2em;
+		aspect-ratio: 1;
+		top: 2em;
+		right: 2em;
+		border: 0;
+	}
 
-    .mobileNavToggle[aria-expanded="true"] {
-        background: url(../../images/icons/mobileMenuClose.svg);
-        background-repeat: no-repeat;
-        background-size: 75%;
-    }
+	.mobileNavToggle[aria-expanded="true"] {
+		background: url(../../images/icons/mobileMenuClose.svg);
+		background-repeat: no-repeat;
+		background-size: 75%;
+	}
 }

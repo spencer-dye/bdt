@@ -1,50 +1,54 @@
 .heroColor {
-    background: linear-gradient(90deg, rgba(21, 46, 95, 1) 0%, rgba(32, 113, 189, 1) 70%);
-    height: 36em;
-    position: relative;
+	background: linear-gradient(
+		90deg,
+		rgba(21, 46, 95, 1) 0%,
+		rgba(32, 113, 189, 1) 70%
+	);
+	height: 36em;
+	position: relative;
 }
 
 .heroImg {
-    width: 54em;
-    position: absolute;
-    right: -10em;
-    top: -12.8125em;
+	width: 54em;
+	position: absolute;
+	right: -10em;
+	top: -12.8125em;
 }
 
 .smlHeroImg {
-    width: 100%;
-    display: none;
+	width: 100%;
+	display: none;
 }
 
 .heroContainer {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	margin: 0 auto;
 }
 
 .heroTextWrap {
-    width: 39em;
+	width: 39em;
 }
 
-@media screen and (max-width:1280px) {
-    .heroImg {
-        width: 46em;
-    }
+@media screen and (max-width: 1280px) {
+	.heroImg {
+		width: 46em;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-    .heroImg {
-        display: none;
-    }
+	.heroImg {
+		display: none;
+	}
 
-    .smlHeroImg {
-        display: block;
-    }
+	.smlHeroImg {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 640px) {
-    .heroColor {
-        height: auto;
-    }
+	.heroColor {
+		height: auto;
+	}
 }

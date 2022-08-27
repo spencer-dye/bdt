@@ -1,30 +1,30 @@
 body {
-   font-family: 'AvenirNextReg';
-   font-size: 1.1111111111111112vw;
-   margin: 0;
-   overflow-x: hidden;
+	font-family: "AvenirNextReg";
+	font-size: 1.1111111111111112vw;
+	margin: 0;
+	overflow-x: hidden;
 }
 
 // -----------------------------------------------------
 // Global Containers
 section {
-    padding: 3.5em 0
+	padding: 3.5em 0;
 }
 
 main {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .container {
-    max-width: 82.5em;
-    margin: 0 auto;
+	max-width: 82.5em;
+	margin: 0 auto;
 }
 
 address {
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    gap: .5em;
+	font-style: normal;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
 }
 
 // -----------------------------------------------------
@@ -32,261 +32,259 @@ address {
 
 // Headings
 h1 {
-    margin: 0;
-    font-family: AvenirNextBld;
-    font-size: 3.75em;
-    line-height: 1.067;
-    color: white;
+	margin: 0;
+	font-family: AvenirNextBld;
+	font-size: 3.75em;
+	line-height: 1.067;
+	color: white;
 }
 
 h2 {
-    margin: 0;
-    color: rgba(21, 46, 95, 1);
-    font-family: "AvenirNextBld";
-    font-size: 3em;
-    font-weight: 700;
-    line-height: 1.083;
+	margin: 0;
+	color: rgba(21, 46, 95, 1);
+	font-family: "AvenirNextBld";
+	font-size: 3em;
+	font-weight: 700;
+	line-height: 1.083;
 }
 
 h3 {
-    margin: 0;
-    color: rgba(21, 46, 95, 1);
-    font-family: "AvenirNextBld";
-    font-size: 2em;
-    font-weight: 700;
-    line-height: 1.125;
+	margin: 0;
+	color: rgba(21, 46, 95, 1);
+	font-family: "AvenirNextBld";
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1.125;
 }
 
 h4 {
-    margin: 0;
-    color: rgba(21, 46, 95, 1);
-    font-family: "AvenirNextBld";
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 1.333;
+	margin: 0;
+	color: rgba(21, 46, 95, 1);
+	font-family: "AvenirNextBld";
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 1.333;
 }
 
 h6 {
-    margin: 0;
-    color: #4A5468;
-    font-family: "AvenirNextBld";
-    font-size: .75em;
-    line-height: 2;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+	margin: 0;
+	color: #4a5468;
+	font-family: "AvenirNextBld";
+	font-size: 0.75em;
+	line-height: 2;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 }
-
 
 // Body text
 p {
-    margin: 0;
+	margin: 0;
 }
 
 .slimP {
-    color: white;
-    font-family: AvenirNextReg;
-    font-weight: 400;
+	color: white;
+	font-family: AvenirNextReg;
+	font-weight: 400;
 }
 
 .pLight {
-    font-size: 1.25em;
-    font-weight: 500;
-    line-height: 1.4;
-    color: #E2E8F0;
+	font-size: 1.25em;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #e2e8f0;
 }
 
 .pDark {
-    font-size: 1.25em;
-    font-weight: 500;
-    line-height: 1.4;
-    color: #4A5468;
+	font-size: 1.25em;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #4a5468;
 }
 
 .pLarge {
-    color: rgba(21, 46, 95, 1);
-    font-family: "AvenirNextReg";
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 1.5;
+	color: rgba(21, 46, 95, 1);
+	font-family: "AvenirNextReg";
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 1.5;
 }
 
 // Misc. Text
 .chip {
-    display: inline-block;
-    padding: 0 1em;
-    color: rgba(74, 84, 104, 1);
-    font-family: "AvenirNextReg";
-    font-size: 1em;
-    font-weight: 600;
-    line-height: 1.5;
-    border-radius: .75em;
-    background-color: rgba(226, 232, 240, 1);
+	display: inline-block;
+	padding: 0 1em;
+	color: rgba(74, 84, 104, 1);
+	font-family: "AvenirNextReg";
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	border-radius: 0.75em;
+	background-color: rgba(226, 232, 240, 1);
 }
 
 .listTitle {
-    color: rgba(160, 174, 192, 1);
-    font-family: "AvenirNextBld";
-    font-size: .75em;
-    font-weight: 700;
-    letter-spacing: .15em;
-    line-height: 2;
-    text-transform: uppercase;
+	color: rgba(160, 174, 192, 1);
+	font-family: "AvenirNextBld";
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 2;
+	text-transform: uppercase;
 }
 
 li {
-    margin: 0;
-    list-style: none;
+	margin: 0;
+	list-style: none;
 }
 
 ul {
-    margin: 0;
+	margin: 0;
 }
 
 // -----------------------------------------------------
 // Global Links
 
 a {
-    font-family: AvenirNextBld;
-    font-size: .75em;
-    letter-spacing: .25;
-    font-weight: 600;
-    line-height: 1.3;
-    color: #152E5F;
-    text-decoration: none;
+	font-family: AvenirNextBld;
+	font-size: 0.75em;
+	letter-spacing: 0.25;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #152e5f;
+	text-decoration: none;
 }
 
 .mainLink {
-    color: #3399E1;
-    font-family: "AvenirNextReg";
-    font-size: 1em;
-    font-weight: 600;
-    line-height: 1.5;
-    transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	color: #3399e1;
+	font-family: "AvenirNextReg";
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .mainLink:hover {
-    color: #152E5F;
+	color: #152e5f;
 }
 
-
 .footerLinks {
-    color: white;
-    font-family: "AvenirNextBld";
-    font-size: 1em  ;
-    font-weight: 700;
-    line-height: 1.5;
-    transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	color: white;
+	font-family: "AvenirNextBld";
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.5;
+	transition: color 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .footerLinks:hover {
-    color: #3399E1;
+	color: #3399e1;
 }
 // -----------------------------------------------------
 // Global Buttons
 button {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .mainBtn {
-    display: flex;
-    align-items: center;
-    gap: .65em;
-    font-family: AvenirNextReg;
-    font-size: 1em;
-    font-weight: 600;
-    line-height: 1.5;
-    color: white;
-    padding: .75em 2em;
-    background: #3399E1;
-    border: none;
-    border-radius: 1.5em;
-    transition: background 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	display: flex;
+	align-items: center;
+	gap: 0.65em;
+	font-family: AvenirNextReg;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	color: white;
+	padding: 0.75em 2em;
+	background: #3399e1;
+	border: none;
+	border-radius: 1.5em;
+	transition: background 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .mainBtn:hover {
-    background: #1f71bd;
+	background: #1f71bd;
 }
 
 .mainBtnAltHover:hover {
-    background: #64a9de;
+	background: #64a9de;
 }
 
 .mainBtn:focus-visible {
-    outline: thick solid #d9ecf9;
+	outline: thick solid #d9ecf9;
 }
 
 .mainBtn:active {
-    background: #264268;
+	background: #264268;
 }
 
 .altBtn {
-    display: flex;
-    align-items: center;
-    gap: .65em;
-    flex-wrap: nowrap;
-    font-family: AvenirNextReg;
-    font-size: 1em;
-    font-weight: 600;
-    line-height: 1.5;
-    color: #3399E1;
-    padding: .75em 2em;
-    background: none;
-    border: 1px solid #A0AEC0;
-    border-radius: 1.5em;
-    transition: background 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	display: flex;
+	align-items: center;
+	gap: 0.65em;
+	flex-wrap: nowrap;
+	font-family: AvenirNextReg;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #3399e1;
+	padding: 0.75em 2em;
+	background: none;
+	border: 1px solid #a0aec0;
+	border-radius: 1.5em;
+	transition: background 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .altBtn:hover {
-    background: #ecf5fc;
+	background: #ecf5fc;
 }
 
 .altBtn:focus-visible {
-    outline: thick solid #d9ecf9;
+	outline: thick solid #d9ecf9;
 }
 
 .altBtn:active {
-    background: #d9ecfa;
+	background: #d9ecfa;
 }
 
 // Button Wrappers
 .btnWrapSml {
-    margin-top: 1em;
+	margin-top: 1em;
 }
 
 .btnWrap {
-    margin-top: 2em;
+	margin-top: 2em;
 }
 
 .btnWrapLrg {
-    margin-top: 3.5em;
+	margin-top: 3.5em;
 }
 
 // -----------------------------------------------------
 // Global Inputs
 
-input[type=email] {
-    width: 100%;
-    margin: .5em 0;
-    padding: .65em;
-    border-radius: .5em;
-    border: 1px solid #A0AEC0;
-    background: white;
-    font-family: AvenirNextReg;
-    font-size: 1em;
-    line-height: 1.5;
-    color: rgba(74, 84, 104, 1);
+input[type="email"] {
+	width: 100%;
+	margin: 0.5em 0;
+	padding: 0.65em;
+	border-radius: 0.5em;
+	border: 1px solid #a0aec0;
+	background: white;
+	font-family: AvenirNextReg;
+	font-size: 1em;
+	line-height: 1.5;
+	color: rgba(74, 84, 104, 1);
 }
 
-input[type=email]::placeholder {
-    color: #A0AEC0;
+input[type="email"]::placeholder {
+	color: #a0aec0;
 }
 
-input[type=email]:hover {
-    background: #efefef;
+input[type="email"]:hover {
+	background: #efefef;
 }
 
-input[type=email]:focus {
-    outline: thick solid #d9ecf9;
+input[type="email"]:focus {
+	outline: thick solid #d9ecf9;
 }
 
 // -----------------------------------------------------
@@ -294,90 +292,90 @@ input[type=email]:focus {
 
 // Spacing
 .is--contentTop {
-    padding-top: 1.5em;
+	padding-top: 1.5em;
 }
 
 .is--topPad {
-    padding-top: 1em;
+	padding-top: 1em;
 }
 
 .is--topPadSmall {
-    padding-top: .5em
+	padding-top: 0.5em;
 }
 
 .is--divider {
-    border-top: 2px solid #E2E8F0;
+	border-top: 2px solid #e2e8f0;
 }
 
 // Typography
 .is--whiteTxt {
-    color: white;
+	color: white;
 }
 
 .is--cntrAlign {
-    text-align: center;
+	text-align: center;
 }
 
 // Coloring
 .is--grayBg {
-    background-color: #F5F8FA;
+	background-color: #f5f8fa;
 }
 
 // Layout
 .is--grid2x1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1em;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 1em;
 }
 
 // Misc.
 .sr-only {
-    border: 0 !important;
-    clip: rect(1px, 1px, 1px, 1px) !important;
-    /* 1 */
-    -webkit-clip-path: inset(50%) !important;
-    clip-path: inset(50%) !important;
-    /* 2 */
-    height: 1px !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    width: 1px !important;
-    white-space: nowrap !important;
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	/* 1 */
+	-webkit-clip-path: inset(50%) !important;
+	clip-path: inset(50%) !important;
+	/* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
 }
 // -----------------------------------------------------
 // Media Queries
 @media screen and (min-width: 1560px) {
-    body {
-        font-size: 17.333px;
-    }
+	body {
+		font-size: 17.333px;
+	}
 }
 
 @media screen and (max-width: 1280px) {
-    body {
-        font-size: 14px;
-    }
+	body {
+		font-size: 14px;
+	}
 
-    .container {
-        max-width: 70em;
-    }
+	.container {
+		max-width: 70em;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-        width: 90%;
-    }
+	.container {
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        font-size: 13px;
-    }
+	body {
+		font-size: 13px;
+	}
 }
 
 @media screen and (max-width: 432px) {
-    h1 {
-        font-size: 3em;
-    }
+	h1 {
+		font-size: 3em;
+	}
 }

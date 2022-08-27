@@ -1,13 +1,13 @@
 .articleLinkWrap {
-    display: flex;
-    align-items: baseline;
-    justify-content: start;
-    gap: .65em;
+	display: flex;
+	align-items: baseline;
+	justify-content: start;
+	gap: 0.65em;
 }
 
 .articleEntry {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
 }
