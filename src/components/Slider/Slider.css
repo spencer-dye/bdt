@@ -40,11 +40,11 @@
   width: 1em;
   background: rgb(255, 255, 255);
   border-radius: 50%;
-  border: 1px solid #3399E1;
+  border: 1px solid #3399e1;
 }
 
 .splide__pagination .is-active {
-  background: #3399E1;
+  background: #3399e1;
 }
 
 .arrowSVG {

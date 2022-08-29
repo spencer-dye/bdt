@@ -1,22 +1,29 @@
 import React from "react";
-import TopNav from "../components/TopNav/TopNav";
-import NavBar from "../components/NavBar/NavBar";
-import Hero from "../components/Hero/Hero";
-import HelpAudiences from "../components/HelpAudiences/HelpAudiences";
-import Impact from "../components/Impact/Impact";
-import Partners from "../components/Partners/Partners";
-import Slider from "../components/Slider/Slider";
-import InsightsSection from "../components/InsightsSection/InsightsSection";
-import Newsletter from "../components/Newsletter/Newsletter";
-import Footer from "../components/Footer/Footer";
+import { Helmet } from "react-helmet";
+
+import {
+	NavBar,
+	Hero,
+	HelpAudiences,
+	Impact,
+	Partners,
+	Slider,
+	InsightsSection,
+	Newsletter,
+	Footer,
+} from "../components";
 
 const Home = () => {
 	return (
 		<>
-			<header>
-				<TopNav />
-				<NavBar />
-			</header>
+			<Helmet>
+				<title>Home - Benefits Data Trust</title>
+				<meta
+					name="Benefits Data Trust | BDT | Connecting People to Benefits"
+					content="Harnessing the power of data, technology, and policy to provide efficient and dignified access to assistance."
+				/>
+			</Helmet>
+			<NavBar />
 			<Hero />
 			<HelpAudiences />
 			<Impact />

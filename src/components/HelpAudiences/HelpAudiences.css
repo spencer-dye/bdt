@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 0.55fr 1fr;
   gap: 0.25em;
-  border-bottom: 2px solid #E2E8F0;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 .audienceBtnWrap {
@@ -27,7 +27,7 @@
 
 .aContentLeft {
   padding: 1em 2em 1em 0;
-  border-right: 2px solid #E2E8F0;
+  border-right: 2px solid #e2e8f0;
 }
 
 .audienceImg {
@@ -57,12 +57,12 @@
 }
 
 .audienceBtnActive {
-  background: #152E5F;
+  background: #152e5f;
   color: white;
 }
 
 .audienceBtnActive:hover {
-  background: #152E5F;
+  background: #152e5f;
   color: white;
 }
 

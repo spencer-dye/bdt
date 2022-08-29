@@ -8,6 +8,8 @@
   src: local("AvenirNextBold"), url("../fonts/AvenirNext/AvenirNextBold.otf") format("truetype");
   font-weight: regular;
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }/*# sourceMappingURL=index.css.map */

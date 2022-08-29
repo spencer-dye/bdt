@@ -1,5 +1,5 @@
 footer {
-  background: #152E5F;
+  background: #152e5f;
 }
 
 .footerLogo {
@@ -38,7 +38,7 @@ footer {
   padding-top: 2.5em;
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #4A5468;
+  border-top: 2px solid #4a5468;
 }
 
 .privacyPolicy {

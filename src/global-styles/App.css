@@ -62,7 +62,7 @@ h4 {
 
 h6 {
   margin: 0;
-  color: #4A5468;
+  color: #4a5468;
   font-family: "AvenirNextBld";
   font-size: 0.75em;
   line-height: 2;
@@ -84,14 +84,14 @@ p {
   font-size: 1.25em;
   font-weight: 500;
   line-height: 1.4;
-  color: #E2E8F0;
+  color: #e2e8f0;
 }
 
 .pDark {
   font-size: 1.25em;
   font-weight: 500;
   line-height: 1.4;
-  color: #4A5468;
+  color: #4a5468;
 }
 
 .pLarge {
@@ -139,12 +139,12 @@ a {
   letter-spacing: 0.25;
   font-weight: 600;
   line-height: 1.3;
-  color: #152E5F;
+  color: #152e5f;
   text-decoration: none;
 }
 
 .mainLink {
-  color: #3399E1;
+  color: #3399e1;
   font-family: "AvenirNextReg";
   font-size: 1em;
   font-weight: 600;
@@ -153,7 +153,7 @@ a {
 }
 
 .mainLink:hover {
-  color: #152E5F;
+  color: #152e5f;
 }
 
 .footerLinks {
@@ -166,7 +166,7 @@ a {
 }
 
 .footerLinks:hover {
-  color: #3399E1;
+  color: #3399e1;
 }
 
 button {
@@ -183,7 +183,7 @@ button {
   line-height: 1.5;
   color: white;
   padding: 0.75em 2em;
-  background: #3399E1;
+  background: #3399e1;
   border: none;
   border-radius: 1.5em;
   transition: background 0.25s cubic-bezier(0.25, 1, 0.5, 1);
@@ -214,10 +214,10 @@ button {
   font-size: 1em;
   font-weight: 600;
   line-height: 1.5;
-  color: #3399E1;
+  color: #3399e1;
   padding: 0.75em 2em;
   background: none;
-  border: 1px solid #A0AEC0;
+  border: 1px solid #a0aec0;
   border-radius: 1.5em;
   transition: background 0.25s cubic-bezier(0.25, 1, 0.5, 1);
 }
@@ -251,7 +251,7 @@ input[type=email] {
   margin: 0.5em 0;
   padding: 0.65em;
   border-radius: 0.5em;
-  border: 1px solid #A0AEC0;
+  border: 1px solid #a0aec0;
   background: white;
   font-family: AvenirNextReg;
   font-size: 1em;
@@ -260,15 +260,15 @@ input[type=email] {
 }
 
 input[type=email]::-moz-placeholder {
-  color: #A0AEC0;
+  color: #a0aec0;
 }
 
 input[type=email]:-ms-input-placeholder {
-  color: #A0AEC0;
+  color: #a0aec0;
 }
 
 input[type=email]::placeholder {
-  color: #A0AEC0;
+  color: #a0aec0;
 }
 
 input[type=email]:hover {
@@ -292,7 +292,7 @@ input[type=email]:focus {
 }
 
 .is--divider {
-  border-top: 2px solid #E2E8F0;
+  border-top: 2px solid #e2e8f0;
 }
 
 .is--whiteTxt {
@@ -304,7 +304,7 @@ input[type=email]:focus {
 }
 
 .is--grayBg {
-  background-color: #F5F8FA;
+  background-color: #f5f8fa;
 }
 
 .is--grid2x1 {
